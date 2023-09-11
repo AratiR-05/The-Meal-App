@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body {
+  width: 100%;
+  background: linear-gradient(to right, deeppink, gold);
+  /* background-repeat: no-repeat, repeat;
+  background-size: cover;
+  opacity: 0.8; */
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+
+/* header heading section */
+#heading {
+  margin-top: 100px;
+}
+
+/* header navbar */
+#nav {
+  height: 65px;
+  background-image: linear-gradient(0deg, purple, rgb(205, 92, 92));
+  position: sticky;
+}
+
+.app_name {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-family: monospace;
+}
+
+/* app's logo */
+#logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 40px;
+  margin: 0 10px 0 6px;
+}
+
+/* header search bar section */
+#search-bar {
+  max-width: 600px;
+  max-height: 100px;
+}
+
+#search-bar input {
+  height: 50px;
+  border-radius: 20px;
+}
+
+/* meal card */
+#card {
+  background-image: linear-gradient(119deg, blue, purple);
+  padding: 10px;
+  color: pink;
+  box-shadow: thistle, 0px 5px 15px;
+}
+
+#card h5 {
+  color: black;
+  font-family: cursive;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#card img {
+  border-radius: 50%;
+}
+
+#card-title {
+  color: black;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: monospace;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* meal details container */
+#meal-details {
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: teal;
+}
+
+#meal-header {
+  width: 70%;
+  margin: auto;
+}
+
+#meal-thumbail img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+#details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+}
+
+#meal-instruction {
+  margin: auto;
+  text-align: center;
+}
+
+/* favourites offcanvus */
+#favourites-body {
+  background-color: #212529;
+}
+
+#fav {
+  margin: 0 20px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
